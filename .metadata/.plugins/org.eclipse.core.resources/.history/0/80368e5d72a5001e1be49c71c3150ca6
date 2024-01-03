@@ -1,0 +1,27 @@
+
+ public class Dog {
+   String breed;
+   int age;
+   String color;
+
+
+   void barking() {
+   }
+   void hungry() {
+   }
+
+
+   void sleeping() {
+   }}
+ public class dog {
+	   public dog(String name) {
+	      // This constructor has one parameter, name.
+	      System.out.println("Passed Name is :" + name );
+	   }
+
+
+	   public static void main(String []args) {
+	      // Following statement would create an object myPuppy
+	      dog myPuppy = new dog( "tommy" );
+	   }}
+

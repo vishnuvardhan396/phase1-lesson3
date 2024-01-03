@@ -1,0 +1,8 @@
+public class dog {
+  int x = 5;
+
+  public static void main(String[] args) {
+    dog myObj = new dog();
+    System.out.println(myObj.x);
+  }
+}
